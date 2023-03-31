@@ -54,3 +54,15 @@ void q_short(int low, int high)
 
     i = low + 1;                                                // Langkah Algoritma No.3
     j = high;                                                   // Langkah Algoritma No.4
+
+
+    while (i <= j)                                              // Langkah Algoritma No.10
+    {
+        // Search for an element greater than pivot
+        while ((arr[i] <= pivot) && (i <= high))                // Langkah Algoritma No.5
+        {
+            i++;                                                // Langkah Algoritma No.6
+            cmp_count++;
+        }
+        cmp_count++;
+    }
