@@ -82,3 +82,10 @@ void q_short(int low, int high)
             mov_count++;
         }
     }
+    // J now containt the index of the last element in the sorted list
+    if (low < j);                                               // Langkah Algoritma No.11
+    {
+        // Move the pivot to its correct position in the list
+        swap(low, j);
+        mov_count++;
+    }
